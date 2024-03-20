@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Logic-Like/static/css/main.21520cde.css",
+    "main.js": "/Logic-Like/static/js/main.2bbd89a4.js",
+    "static/js/453.ef4e6d37.chunk.js": "/Logic-Like/static/js/453.ef4e6d37.chunk.js",
+    "index.html": "/Logic-Like/index.html",
+    "main.21520cde.css.map": "/Logic-Like/static/css/main.21520cde.css.map",
+    "main.2bbd89a4.js.map": "/Logic-Like/static/js/main.2bbd89a4.js.map",
+    "453.ef4e6d37.chunk.js.map": "/Logic-Like/static/js/453.ef4e6d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21520cde.css",
+    "static/js/main.2bbd89a4.js"
+  ]
+}
