@@ -1,0 +1,22 @@
+@use "./../../styles/dimensions" as d;
+@use "./../../styles/colors" as c;
+@use "./../../styles/fonts" as f;
+
+.menu {
+  border-radius: d.$bigBorderRadius;
+  border: 1px solid c.$gray;
+  padding: d.$smallMargin;
+
+  &__item {
+    @include f.bold-black;
+    padding: d.$smallMargin;
+    border-radius: d.$bigBorderRadius;
+    list-style-type: none;
+    cursor: pointer;
+
+    &--active {
+      background-color: c.$green;
+      color: c.$white;
+    }
+  }
+}

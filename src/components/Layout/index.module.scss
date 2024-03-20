@@ -1,0 +1,15 @@
+@use "./../../styles/dimensions" as d;
+
+.layout {
+  padding: 24px;
+  display: flex;
+}
+
+.menu {
+  width: d.$menuWidth;
+  margin-right: d.$bigMargin;
+}
+
+.content {
+  width: calc(100% - d.$menuWidth - d.$bigMargin);
+}
